@@ -10,12 +10,8 @@ while True:
         if numberOfPlaces < 1 or numberOfPlaces > 5000:
             raise ValueError #This will send it to the print message and back to the input option
         break
-    except NameError:
-        print("Oops!  That was not a valid input.  Try again...")
-    except SyntaxError:
-        print("Oops!  That was not a valid input.  Try again...")
     except ValueError:
-        print("Oops!  That number was to high.  Try again...")
+        print("Oops!  That was not a valid input.  Try again...")
 
 # Chudnovsky algorithm for figuring out pi
 getcontext().prec=numberOfPlaces+1
