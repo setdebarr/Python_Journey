@@ -1,3 +1,0 @@
-python-nmap
-pypiwin32
-pyttsx3
